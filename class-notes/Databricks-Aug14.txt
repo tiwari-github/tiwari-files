@@ -600,7 +600,7 @@
 		df1.dropDuplicates(["DEST_COUNTRY_NAME"]).count()
 
 
-   13. randomSplit
+   13. randomSplit-method used in Apache Pyspark library to split dataframe  or RDD into two or more dataframes or RDD based on specified weight.
 
 		dfList = df1.randomSplit([0.5, 0.5], 464)
 		print( dfList[0].count(), dfList[1].count() )
